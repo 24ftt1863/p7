@@ -4,7 +4,7 @@ public class OccurenceOfMaxNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter numbers, the input ends with 0 entered: ");
+        System.out.println("Enter numbers, the input ends with 0 entered: ");
         int num = input.nextInt();
 
         int largest = num;
@@ -30,8 +30,9 @@ public class OccurenceOfMaxNumbers {
         }
 
         if (count > 0) {
-            System.out.println("The largest number is " + largest);
+            System.out.println("\nThe largest number is " + largest);
             System.out.println("The occurrence count of the largest number is " + count);
         }
     }
 }
+

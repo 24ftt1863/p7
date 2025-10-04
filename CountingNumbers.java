@@ -10,8 +10,9 @@ public class CountingNumbers {
         int count = 0;
         double average;
 
+        System.out.println("Enter an integer, the input ends if it is 0: ");
+
         while(true){
-            System.out.println("Enter an integer, the input ends if it is 0: ");
             number = input.nextInt();
 
             if (number == 0){
@@ -41,3 +42,4 @@ public class CountingNumbers {
         }
     }
 }
+

@@ -32,7 +32,7 @@ public class CountingNumbers {
 
         if (count != 0){
             average = (double) total/count;
-            System.out.println("The number of positive is "+ positive);
+            System.out.println("\nThe number of positive is "+ positive);
             System.out.println("The number of negatives is "+ negative);
             System.out.println("The total is "+ total);
             System.out.println("The average is "+ average);
@@ -42,4 +42,5 @@ public class CountingNumbers {
         }
     }
 }
+
 
